@@ -1,0 +1,28 @@
+ALGORITHM Exemple
+VAR hashtable<INTEGER,INTEGER>;
+    key :Map;
+    i : INTEGER;
+    sum :INTEGER;
+    VAR hashtable2<INTEGER,INTEGER>;
+BEGIN
+sum :=0;
+hashtable.put("1", "1");
+    hashtable.put("2", "2");
+    hashtable.put("3", "3");
+
+
+    hashtable2.put("1", "1");
+    hashtable2.put("2", "9");
+    hashtable2.put("3", "4");
+
+Searches an element in a hash table.
+print (value)
+if (value of hashtable== value of hashtable2 )
+hashtable2.pop(value)
+hashtable.pop(value)
+else
+sum:=(hashtable+hashtable2)
+
+
+
+END
